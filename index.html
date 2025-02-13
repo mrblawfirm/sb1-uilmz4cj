@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="flowers-container"></div>
+        <div id="popup-flowers"></div>
+        
+        <div class="content">
+            <h1>Happy Valentine's Day! ❤️</h1>
+            <button id="open-letter" class="letter-button">Open My Letter 💌</button>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <div class="letter">
+                    <h2>Hey Beshy! ❤️</h2>
+                    <div class="letter-text">
+                        <p>
+                            Beshy, you make my heart skip a beat every time I see you! Your smile brightens up my day
+                            like no other, and being with you feels like the most perfect adventure.
+                        </p>
+                        <p>
+                            You're my favorite person to annoy, my partner-in-crime, and the one who makes me smile
+                            like crazy. Beshy, will you be my Valentine today and always? 🥺
+                        </p>
+                        <div class="date-invitation">
+                            <p>I have something special to ask you... 💝</p>
+                            <button id="date-button" class="date-button">Click Here Beshy! 💖</button>
+                        </div>
+                        <p class="signature">
+                            Forever yours,<br>
+                            Your Beshy ❤️
+                        </p>
+                    </div>
+                    <button id="close-letter" class="close-button">Close with Love 💕</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="date-modal" class="modal">
+            <div class="modal-content date-request">
+                <h2>Beshy... 💕</h2>
+                <p>Would you like to go on a special date with me?</p>
+                <p class="date-details">Let's create beautiful memories together! 🌟</p>
+                <div class="date-buttons">
+                    <button id="yes-date" class="yes-button">Yes, I'd love to! 💝</button>
+                    <button id="no-date" class="no-button">Maybe next time 🥺</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
